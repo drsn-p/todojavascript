@@ -1,0 +1,120 @@
+/* body{
+background-image: url(COLORFUL-GRADIENT-HD.png);
+background-repeat: no-repeat ;
+} */
+
+body {
+  background-image: url(COLORFUL-GRADIENT-HD.png);
+   
+}
+  
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 550px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.styled-table thead  {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+thead{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,13,68,1) 67%, rgba(0,212,255,1) 100%);
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.button-28{
+  min-width: 50%;
+}
+.styled-table tbody  {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody   {
+  font-weight: bold;
+  color: #009879;
+}
+
+
+.button-28 {
+  appearance: none;
+  background-color: white;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  max-height: auto;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  max-width: 100%;
+  will-change: transform;
+  margin: 2%;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: #fff;
+  /* background-color: gray; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(34,115,111,1) 67%, rgba(0,212,255,1) 100%); 
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+input[type=text]{
+  background-color: lavenderblush;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-top-right-radius: 20rem;
+  border-bottom-left-radius: 20rem;
+  
+}
+
+p{
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  font-size: large;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
